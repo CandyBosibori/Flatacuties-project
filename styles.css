@@ -22,6 +22,13 @@ h1 {
 
 }
 
+p{
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
 #animalList {
     
     padding: 10px;
@@ -54,8 +61,8 @@ li{
  
 }
 #reset{
-    margin : auto;
-    max-width: 150px;
+    margin :auto;
+    max-width: 450px;
 
 }
 button{
@@ -64,4 +71,18 @@ button{
     color: white;
     padding: 2px 20px;
     border-radius: 3px;
+    width: 150px
+}
+#animalDetails{
+    max-width: 450px;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#votesButton{
+    border-radius: px;
+    width: 100px;
+    
 }
