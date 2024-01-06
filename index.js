@@ -78,6 +78,15 @@ document.addEventListener('DOMContentLoaded', function () {
         votesElement.textContent = `Votes: ${newVotes}`;
       }
  
+       // Function to reset votes to 0
+    function resetVotes() {
+        const animalDetailsContainer = document.getElementById('animalDetails');
+        const votesElement = animalDetailsContainer.querySelector('p');
+        votesElement.textContent = 'Votes: 0';
+      }
+
+      document.getElementById('reset').addEventListener('click', resetVotes)
+
    
       displayAnimalList();
       
